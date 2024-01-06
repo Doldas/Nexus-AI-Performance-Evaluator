@@ -15,4 +15,13 @@ cd ..\backend
 :: install the dependencies for the backend server
 start npm install
 
+:: Open a new terminal window
+start cmd /k
+:: install python dependencies
+start pip install Flask
+start pip install pillow
+start pip install pydicom
+start pip install Image
+start pip install pathlib
+
 cd ..\..\..\

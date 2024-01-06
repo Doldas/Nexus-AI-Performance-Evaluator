@@ -13,5 +13,12 @@ cd ../backend
 # install the dependencies for the backend server
 npm install
 
+# install python dependencies
+pip install Flask
+pip install pillow
+pip install pydicom
+pip install Image
+pip install pathlib
+
 # change back to root directory
 cd ../../../
